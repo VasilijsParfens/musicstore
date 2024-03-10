@@ -164,6 +164,7 @@ hr{
     border-color: black;
     display: inline;
     font-family: 'Martian Mono';
+    margin-right: 10px;
 }
 
 .add-to-cart-button {
@@ -419,4 +420,65 @@ button:hover{
 
 .image-container-vinyl {
     flex: 1;
+}
+
+.album-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.album-details {
+    display: flex;
+    align-items: center;
+}
+
+.album-details-container {
+    margin-right: 20px; /* Adjust spacing between album details and buttons */
+}
+
+.album-image {
+    max-width: 100%;
+    margin-top: 40px;
+    margin-left: 80px;
+    height: auto;
+}
+
+/* Additional styling for album info */
+.album-title, .album-artist, .album-description, .album-price {
+    margin: 5px 0;
+}
+
+.album-title{
+    font-size: xx-large;
+}
+
+.album-artist{
+    font-size: x-large;
+}
+
+.album-description{
+    font-size: large;
+}
+
+.description-content {
+    color: rgb(122, 122, 122);
+    font-size: medium;
+    max-width: 400px; /* Adjust the maximum width as needed */
+}
+
+.album-price{
+    font-size: medium;
+}
+
+.description-divider {
+    width: 0.5px;
+    height: 100px;
+    margin-left: 20px; /* Adjust the margin as needed */
+}
+
+.button-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
