@@ -3,20 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../../styles.css">
     <link href='https://fonts.googleapis.com/css?family=Martian Mono' rel='stylesheet'>
-    <title>Sign up</title>
+    <title>MusicStore</title>
 </head>
 <body>
-    <div class="site_title">
-        <a href="/homepage.html">MusicStore</a>
-    </div>
-    <hr>
-    <div class="signup-input-container">
-        <div class="signup-header">
-            <h1>Sign up</h1>
+    <div class="add-user-container">
+        <div class="add-user-header">
+            <h1>Add user</h1>
         </div>
-            <div class="signup-container">
+            <div class="add-user-input">
                 <div class="username-input">
                     <input placeholder="Username" type="text" id="username" name="username">
                 </div>
@@ -29,10 +25,15 @@
                 <div class="password-input">
                     <input placeholder="Password" type="text" id="password" name="password">
                 </div>
-                <div class="signup-button">
-                    <button id="myButton" class="signup-button" onclick="window.location.href='./signup_success.html'">Submit</button>
-                </div>
+        </form>
+        </div>
+        <div class="submit-button">
+            <button type="submit" class="submit-button">Submit</button>
+        </div>
+        <div class="back-button">
+            <button id="myButton" class="signup-button" onclick="window.location.href='add.html'">BACK</button>
         </div>
     </div>
+    
 </body>
 </html>

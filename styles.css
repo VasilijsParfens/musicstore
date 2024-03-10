@@ -482,3 +482,120 @@ button:hover{
     flex-direction: column;
     align-items: flex-end;
 }
+
+.add-user-container{
+    vertical-align: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.add-user-header{
+    vertical-align: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.add-user-input{
+    vertical-align: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.add-product-container{
+    vertical-align: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.add-product-input{
+    vertical-align: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.edit-product-container{
+    vertical-align: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.edit-product-input{
+    vertical-align: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.edit-user-container{
+    vertical-align: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.edit-user-input{
+    vertical-align: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.functions-button-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 150px; /* Adjust the margin between buttons as needed */
+
+}
+
+.function-buttons {
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: black;
+    display: inline;
+    font-family: 'Martian Mono';
+}
+
+.delete-product-container{
+    vertical-align: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.delete-product-input{
+    vertical-align: center;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.delete-user-container{
+    vertical-align: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.delete-user-input{
+    vertical-align: center;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.delete-order-container{
+    vertical-align: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.delete-order-input{
+    vertical-align: center;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
